@@ -71,6 +71,9 @@ public class StreamConcepts {
         List<Integer> secondLargest = Arrays.asList(21, 3, 5, 6);
         secondLargest.stream().sorted((a, b) -> b - a).filter(a -> a > secondLargest.get(2) && a < secondLargest.get(0))
                 .forEach(System.out::println);
+
+
+        String str = "3a2b";
     }
 
 }
